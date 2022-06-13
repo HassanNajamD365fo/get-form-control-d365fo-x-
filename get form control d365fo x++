@@ -1,0 +1,6 @@
+    FormRun formRun = args.getThis() as FormRun;
+    
+    FormCheckBoxControl TaxId       = formRun.design(0).controlName("TaxId") as FormCheckBoxControl;
+    FormStringControl PartyNumber   = formRun.design(0).controlName("DirPartyTable_PartyNumber") as FormStringControl;
+    FormComboBoxControl TaxIdType   = formRun.design(0).controlName("TaxIdType") as FormComboBoxControl;
+    FormControl searchBtn           = formRun.design(0).controlName("searchBtn");
